@@ -1,0 +1,26 @@
+{
+  "name": "flexoki-vscode",
+  "displayName": "flexoki-vscode",
+  "description": "Flexoki is an inky color scheme for prose and code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flexoki Light",
+        "uiTheme": "vs",
+        "path": "./themes/Flexoki-light-color-theme.json"
+      },
+      {
+        "label": "Flexoki Dark",
+        "uiTheme": "vs",
+        "path": "./themes/Flexoki-dark-color-theme.json"
+      }
+    ]
+  }
+}
